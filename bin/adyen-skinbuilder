@@ -6,7 +6,6 @@ require 'vegas'
 
 opts = {}
 
-
 if (skins = ARGV.last) && File.directory?(skins)
   opts[:skins_directory] = File.expand_path(skins)
 
